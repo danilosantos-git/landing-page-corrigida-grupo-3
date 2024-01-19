@@ -203,6 +203,11 @@ footer {
     margin-bottom: 24px;
 }
 
+/* Estilo da navegação do footer (home/about/contact) */
+.footer-nav {
+    color: white;
+}
+
 .footer-bottom ul {
     color: #ffffff;
     /* margin-right: 20px; */
