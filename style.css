@@ -1,0 +1,171 @@
+/* CSS base */
+body {
+    /* Resete da formatação */
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    /* Fonte padrão do site */
+    background: url('assets/background.png');
+    /* Background realocado para o body */
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    /* Correção do posicionamento do background */
+    background-origin: border-box;
+}
+
+/* Adição do css que estava prensente internamente no código, para o arquivo externo */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 165px;
+    padding-left: 165px;
+}
+
+.header img {
+    color: #EB423F;
+    width: 95px;
+    height: 38px;
+}
+
+ul {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    gap: 60px;
+    list-style-type: none;
+}
+
+.header ul {
+    color: #CD313E;
+    /* Removi a fonte errada */
+}
+
+.header-button {
+    width: 160px;
+    height: 26px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #EB423F;
+    font-size: 12px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    /* Remoção do fundo da div */
+    padding-top: 240px;
+    padding-bottom: 440px;
+    margin-bottom: 100px;
+    margin-left: 87px;
+    /* Reposicionado conforme o figma */
+    width: 539px;
+    height: 362px;
+}
+
+/* Adição do estilo do h2 */
+.content h2 {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 66px;
+    letter-spacing: 1px;
+
+}
+
+/* Adição do CSS tag p */
+.content p {
+    color: #D44D51;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 30px;
+    /* Define a distância entre os botões */
+}
+
+.learnMore {
+    border: 2px solid #000;
+    background-color: transparent;
+    color: #000;
+    font-weight: 500;
+}
+
+/* Adição do button ao css externo */
+button {
+    font-size: 16px;
+    width: 189px;
+    height: 36px;
+    flex-shrink: 0;
+    background-color: #CD313E;
+    color: #fff;
+    border: none;
+    /* Retirei as bordas dos botões */
+    border-radius: 2px;
+}
+
+.button-footer {
+    font-size: 12px;
+    width: 109px;
+    height: 26px;
+    border-radius: 2px;
+    background: #D04A3B;
+    flex-shrink: 0;
+}
+
+.content button {
+    gap: 30px;
+}
+
+/* Remoção do .content div span */
+
+/* Adicionei o css do footer */
+footer {
+    font-size: 14px;
+    background-color: #F78282;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 67px;
+    padding-right: 165px;
+    padding-left: 165px;
+    padding-bottom: 47px;
+}
+
+.line {
+    width: 1110px;
+    /* padding-right: 165px;
+    padding-left: 165px; */
+    height: 1px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 24px;
+    padding-right: 165px;
+    padding-left: 165px;
+    padding-bottom: 32px;
+}
+
+.footer2 ul {
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.footer2 img {
+    height: 16px;
+}
